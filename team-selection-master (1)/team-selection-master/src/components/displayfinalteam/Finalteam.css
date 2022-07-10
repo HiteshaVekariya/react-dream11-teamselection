@@ -1,0 +1,120 @@
+.langmodal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -300;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+    .langmodal__animated {
+    z-index: 300;
+    opacity: 1;
+    }
+    .langmodal__content {
+    width: 95%;
+    height: auto;
+    background:rgb(33, 5, 83);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.11);
+    position: absolute;
+    border-radius: 10px;
+    z-index: -400;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    }
+    .langmodal__content__name {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height: 523px;
+    }
+    .chooseteam {
+    font-size: 26px;
+    margin-bottom: 16px;
+    color: rgb(190, 128, 47);
+    }
+    
+    .langmodal__content__animated {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    z-index: 400;
+    }
+    table {
+        border-collapse: collapse;
+        background-color: #ffff;
+        height: 30vh;
+        }
+        td ,th{
+        text-align: left;
+        padding: 8px;
+        font-size: 13px;
+        align-items: center;
+        }
+        th, td {
+            border-bottom: 1px solid #ddd;
+        }
+        .head{
+            color: rgb(189, 186, 186);;
+        }
+        .data_first{
+            font-weight:bold;
+            color: black;
+        }
+        .second{
+            color: rgb(189, 186, 186);;
+        }
+        .second_row{
+            color: rgb(81, 80, 80);
+        }
+        .image_tag{
+            border-radius: 50%;
+            width: 50px;
+        }
+        .progress_main{
+            border-radius:40px;
+            height: 15px;
+            width: 100%;
+        }
+        .progress_child{
+            position: relative;
+            border-radius:40px;
+            height: 15px;
+            opacity: 1;
+            bottom: 15px;
+    
+        }
+        .percent{
+            z-index: 10;
+            position: relative;
+            font-weight: bold;
+            margin-left: 8px;
+            color:white;
+        
+        }
+        .last_parts{
+            border-radius: 50%;
+            padding: 3px;
+        }
+        .maintodo{
+        height: 368px;
+        overflow: scroll;
+        }
+        .lasti_bt {
+            width: 40%;
+            padding: 10px;
+            border: none;
+            background-color: rgb(190, 128, 47);
+            font-size: 15px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px 10px 10px 10px;
+        }

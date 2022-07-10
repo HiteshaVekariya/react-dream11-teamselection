@@ -1,0 +1,47 @@
+.players_roles{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 12px;
+    padding: 5px;
+    color:rgb(189, 186, 186);
+    cursor: pointer;
+    position: sticky;
+}
+.active{
+color: black;
+text-decoration: underline;
+}
+.select_items_maxmin{
+    padding: 10px;
+    background-color: rgb(231, 229, 229);
+    text-align: center;
+    font-size: 12px;
+    color:rgb(128, 124, 124);
+}
+.data_display_to{
+    background-color:rgb(231, 229, 229);
+    overflow: scroll;
+    overflow-x: auto;
+    height: 67vh;
+}
+.btn{
+    width: 98%;
+    height: 5vh;
+    background-color: rgb(231, 229, 229);
+    border: none;
+    color:rgb(141, 139, 139);
+    margin-top: 3px;
+    margin-left: 4px;
+}
+.last_part{
+    padding: 3px;
+}
+.btn_active{
+background-color: rgb(190, 128, 47);
+color: black;
+width: 98%;
+height: 5vh;
+border: none;
+margin-top: 3px;
+margin-left: 4px;
+}

@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffff;
+    }
+    td ,th{
+    text-align: left;
+    padding: 8px;
+    font-size: 13px;
+    align-items: center;
+    }
+    th, td {
+        border-bottom: 1px solid #ddd;
+    }
+    .head{
+        color: rgb(189, 186, 186);;
+    }
+    .data_first{
+        font-weight:bold;
+    }
+    .second{
+        color: rgb(189, 186, 186);;
+    }
+    .second_row{
+        color: rgb(81, 80, 80);
+    }
+    .image_tag{
+        border-radius: 50%;
+        width: 50px;
+    }
+    .progress_main{
+        border-radius:40px;
+        height: 15px;
+        width: 100%;
+    }
+    .progress_child{
+        position: relative;
+        border-radius:40px;
+        height: 15px;
+        opacity: 1;
+       bottom: 15px;
+
+    }
+    .percent{
+        z-index: 10;
+        position: relative;
+        font-weight: bold;
+        margin-left: 8px;
+        color:white;
+    
+    }
+    .last_parts{
+        border-radius: 50%;
+        padding: 3px;
+    }
